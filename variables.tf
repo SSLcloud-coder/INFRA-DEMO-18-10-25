@@ -11,7 +11,13 @@ variable "location" {
 }
 
 variable "location" {
-  description = "rg-2-US"
+  description = "rg-1-us"
+  type        = string
+  default     = "eastus"
+}
+
+variable "location" {
+  description = "rg-2-us"
   type        = string
   default     = "eastus"
 }
