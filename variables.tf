@@ -10,6 +10,12 @@ variable "location" {
   default     = "eastus"
 }
 
+variable "location" {
+  description = "rg-2-US"
+  type        = string
+  default     = "eastus"
+}
+
 variable "resource_group_name" {
   description = "Name of the resource group"
   type        = string
